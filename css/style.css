@@ -1,0 +1,29 @@
+.logo{
+    margin-top: -6rem;
+}
+@media (max-width: 480px) {
+    .logo{
+        @media (max-width: 481px) {
+            .logo{
+                margin-top: -1rem;
+            }
+        }
+    }
+}
+@media (max-width: 578px) {
+    .logo{
+        margin-top: -2.5rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .logo{
+        margin-top: -3.5rem;
+    }
+}
+
+.card img:hover{
+    transform: scale(1.1)
+}
+
